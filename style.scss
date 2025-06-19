@@ -74,6 +74,11 @@
     height: 1470px;
     background-color: #202027;
 
+    &__games {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     &__content {
         width: 1201px;
         height: 198px;
@@ -102,10 +107,53 @@
         width: 788px;
 
     }
-    &__games {
+
+    &__link {
+        text-decoration: none;
+    }
+    &__card {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        width: 378px;
+        height: 473px;
+        border-radius: 30px;
+        
+
+    }
+    &__art {
+        width: 378px;
+        height: 473px;
+        border-radius: 30px;
+        background-color: #FFFFFF;
+        margin: 32px;
+    }
+
+    &__item {
+        padding-top: 32px;
+        padding-right: 32px;
+        padding-bottom: 36px;
+        padding-left: 32px;        
+    }
+
+    &__svg {
+        background-color: #AD61FF;
+        border-radius: 30px;
+    }
+    &__number {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 16px;
+        color: #202027;
+    }
+
+    &__name {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        color: #202027;
+
     }
  }
 

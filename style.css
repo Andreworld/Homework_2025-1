@@ -68,6 +68,10 @@
   height: 1470px;
   background-color: #202027;
 }
+.about_games__games {
+  display: flex;
+  flex-wrap: wrap;
+}
 .about_games__content {
   width: 1201px;
   height: 198px;
@@ -94,8 +98,44 @@
   color: #FFFFFF;
   width: 788px;
 }
-.about_games__games {
+.about_games__link {
+  text-decoration: none;
+}
+.about_games__card {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 378px;
+  height: 473px;
+  border-radius: 30px;
+}
+.about_games__art {
+  width: 378px;
+  height: 473px;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  margin: 32px;
+}
+.about_games__item {
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-bottom: 36px;
+  padding-left: 32px;
+}
+.about_games__svg {
+  background-color: #AD61FF;
+  border-radius: 30px;
+}
+.about_games__number {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: #202027;
+}
+.about_games__name {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #202027;
 }/*# sourceMappingURL=style.css.map */
