@@ -73,10 +73,12 @@
     width: 1440px;
     height: 1470px;
     background-color: #202027;
+    
 
     &__games {
         display: flex;
         flex-wrap: wrap;
+        gap: 32px;
     }
 
     &__content {
@@ -126,7 +128,8 @@
         height: 473px;
         border-radius: 30px;
         background-color: #FFFFFF;
-        margin: 32px;
+        margin-bottom: 32px;
+        margin-top: 32px;
     }
 
     &__item {
@@ -136,10 +139,44 @@
         padding-left: 32px;        
     }
 
-    &__svg {
+    &__svg1 {
         background-color: #AD61FF;
         border-radius: 30px;
     }
+    &__svg2 {
+        background-color: #FDAD00;
+        border-radius: 30px;
+    }
+    &__svg3 {
+        background-color: #565EEF;
+        border-radius: 30px;
+    }
+    &__svg4 {
+        background-color: #271A58;
+        border-radius: 30px;
+        
+
+    }
+    &__svg5 {
+        background-color: #99D100;
+        border-radius: 30px;
+    }
+    &__svg6 {
+        background-color: #AD61FF;
+        border-radius: 30px;
+    }
+
+    &__img {
+        width: 82.00000294543408px;
+        height: 89.00000906851918px;
+        margin-top: -300px;
+        margin-left: 156.01px;
+        angle: -10 deg;
+        border-width: 0.63px;
+
+
+    }
+
     &__number {
         font-family: Montserrat;
         font-weight: 500;
@@ -153,8 +190,22 @@
         font-size: 32px;
         line-height: 100%;
         color: #202027;
+        margin-top: 16px;
 
     }
+ }
+
+ .g2 {
+    height: 512px;
+ }
+
+ .g4 {
+    height: 551px;
+ }
+
+ .top__btn:hover {
+    background-color: #FFFFFF;
+    color: #202027;
  }
 
 

@@ -71,6 +71,7 @@
 .about_games__games {
   display: flex;
   flex-wrap: wrap;
+  gap: 32px;
 }
 .about_games__content {
   width: 1201px;
@@ -114,7 +115,8 @@
   height: 473px;
   border-radius: 30px;
   background-color: #FFFFFF;
-  margin: 32px;
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
 .about_games__item {
   padding-top: 32px;
@@ -122,9 +124,37 @@
   padding-bottom: 36px;
   padding-left: 32px;
 }
-.about_games__svg {
+.about_games__svg1 {
   background-color: #AD61FF;
   border-radius: 30px;
+}
+.about_games__svg2 {
+  background-color: #FDAD00;
+  border-radius: 30px;
+}
+.about_games__svg3 {
+  background-color: #565EEF;
+  border-radius: 30px;
+}
+.about_games__svg4 {
+  background-color: #271A58;
+  border-radius: 30px;
+}
+.about_games__svg5 {
+  background-color: #99D100;
+  border-radius: 30px;
+}
+.about_games__svg6 {
+  background-color: #AD61FF;
+  border-radius: 30px;
+}
+.about_games__img {
+  width: 82.0000029454px;
+  height: 89.0000090685px;
+  margin-top: -300px;
+  margin-left: 156.01px;
+  angle: -10 deg;
+  border-width: 0.63px;
 }
 .about_games__number {
   font-family: Montserrat;
@@ -137,5 +167,19 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
+  color: #202027;
+  margin-top: 16px;
+}
+
+.g2 {
+  height: 512px;
+}
+
+.g4 {
+  height: 551px;
+}
+
+.top__btn:hover {
+  background-color: #FFFFFF;
   color: #202027;
 }/*# sourceMappingURL=style.css.map */
