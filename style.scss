@@ -123,14 +123,14 @@
         justify-content: center;
         width: 378px;
         height: 473px;
-        border-radius: 30px;
+        border-radius: 6%;
         
 
     }
     &__art {
         width: 378px;
         height: 473px;
-        border-radius: 30px;
+        border-radius: 6%;
         background-color: #FFFFFF;
         margin-bottom: 32px;
         margin-top: 32px;
@@ -234,6 +234,7 @@
         background-color: #FFFFFF;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         
     }
 
@@ -275,15 +276,14 @@
     &__btn {        
         width: 247px;
         height: 66px;
-        margin: 36px 0px;
+        margin-top: 36px;
+        margin-bottom: 30px;
         border-radius: 60px;
         background: #202027;
         color: #FFFFFF;
         font-family: Montserrat;
         font-weight: 600;
         font-size: 24px;
-        line-height: 142%;
-        letter-spacing: 0%;
         text-align: center;
         
     }
@@ -375,10 +375,7 @@
             margin-bottom: 24px;
         }
 
-        &__img {
-            height: 284px;
-            width: 343px;
-        }
+       
 
         &__item {
             width: 285px;

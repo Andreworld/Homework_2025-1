@@ -108,12 +108,12 @@
   justify-content: center;
   width: 378px;
   height: 473px;
-  border-radius: 30px;
+  border-radius: 6%;
 }
 .about__art {
   width: 378px;
   height: 473px;
-  border-radius: 30px;
+  border-radius: 6%;
   background-color: #FFFFFF;
   margin-bottom: 32px;
   margin-top: 32px;
@@ -200,6 +200,7 @@
   background-color: #FFFFFF;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .mini__item {
   margin-top: 48px;
@@ -233,15 +234,14 @@
 .mini__btn {
   width: 247px;
   height: 66px;
-  margin: 36px 0px;
+  margin-top: 36px;
+  margin-bottom: 30px;
   border-radius: 60px;
   background: #202027;
   color: #FFFFFF;
   font-family: Montserrat;
   font-weight: 600;
   font-size: 24px;
-  line-height: 142%;
-  letter-spacing: 0%;
   text-align: center;
 }
 
@@ -311,10 +311,6 @@
     margin-right: 16px;
     margin-top: 24px;
     margin-bottom: 24px;
-  }
-  .mini__img {
-    height: 284px;
-    width: 343px;
   }
   .mini__item {
     width: 285px;
