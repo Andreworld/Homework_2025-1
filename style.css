@@ -12,18 +12,15 @@
 
 .header {
   background-color: #E1FF8F;
-  height: 800px;
 }
 
 .top {
-  width: 769px;
-  height: 358px;
+  max-width: 769px;
   padding-top: 196px;
   padding-left: 120px;
 }
 .top__block {
   gap: 24px;
-  height: 244px;
 }
 .top__title {
   font-family: Montserrat;
@@ -41,6 +38,7 @@
   line-height: 32px;
   letter-spacing: 0px;
   vertical-align: middle;
+  margin-bottom: 48px;
 }
 .top__btn {
   width: 247px;
@@ -60,15 +58,19 @@
   letter-spacing: 0%;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 246px;
 }
 
 .about {
-  height: 1470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #202027;
 }
 .about__games {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 32px;
 }
 .about__content {
@@ -159,6 +161,7 @@
 .mini__games {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 32px;
 }
 .mini__content {
@@ -191,22 +194,21 @@
   text-decoration: none;
 }
 .mini__art {
-  width: 1200px;
-  height: 500px;
+  max-width: 1200px;
   border-radius: 30px;
   background-color: #FFFFFF;
   display: flex;
   justify-content: space-between;
 }
 .mini__item {
-  height: 249px;
-  width: 504px;
   margin-top: 48px;
   margin-left: 48px;
   margin-right: 48px;
 }
 .mini__img {
-  border-radius: 30px;
+  border-radius: 6%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .mini__number {
   font-family: Montserrat;
