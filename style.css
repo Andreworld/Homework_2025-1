@@ -125,7 +125,8 @@
   padding-left: 32px;
 }
 .about__img {
-  border-radius: 30px;
+  border-radius: 6%;
+  max-width: 378px;
 }
 .about__number {
   font-family: Montserrat;
