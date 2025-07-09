@@ -249,6 +249,11 @@
   flex-direction: row-reverse;
 }
 
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
 @media (max-width: 376px) {
   .header {
     height: 700px;
@@ -257,8 +262,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 343px;
-    height: 371px;
     gap: 36px;
     padding-top: 147px;
     padding-left: 40px;
