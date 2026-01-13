@@ -1,0 +1,334 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.header {
+  background-color: #E1FF8F;
+}
+
+.top {
+  max-width: 769px;
+  padding-top: 196px;
+  padding-left: 120px;
+}
+.top__block {
+  gap: 24px;
+}
+.top__title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  margin-bottom: 24px;
+}
+.top__text {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  margin-bottom: 48px;
+}
+.top__btn {
+  width: 247px;
+  height: 66px;
+  border-width: 1px;
+  gap: 10px;
+  border-radius: 60px;
+  padding-top: 16px;
+  padding-right: 28px;
+  padding-bottom: 16px;
+  padding-left: 28px;
+  background-color: #202027;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 142%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 246px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: #202027;
+}
+.about__games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+.about__content {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.about__title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+.about__text {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+.about__link {
+  text-decoration: none;
+}
+.about__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 378px;
+  height: 473px;
+  border-radius: 6%;
+}
+.about__art {
+  width: 378px;
+  height: 473px;
+  border-radius: 6%;
+  background-color: #FFFFFF;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+.about__item {
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-bottom: 36px;
+  padding-left: 32px;
+}
+.about__img {
+  border-radius: 6%;
+  max-width: 378px;
+}
+.about__number {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: #202027;
+}
+.about__name {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #202027;
+  margin-top: 16px;
+}
+
+.g2 {
+  height: 512px;
+}
+
+.g4 {
+  height: 551px;
+}
+
+.top__btn:hover {
+  background-color: #FFFFFF;
+  color: #202027;
+}
+
+.mini {
+  background-color: #202027;
+}
+.mini__games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+.mini__content {
+  width: 1201px;
+  height: 198px;
+  gap: 24px;
+  padding-top: 72px;
+  padding-left: 72px;
+}
+.mini__title {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+.mini__text {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #ffffff;
+  width: 788px;
+}
+.mini__link {
+  text-decoration: none;
+}
+.mini__art {
+  max-width: 1200px;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mini__item {
+  margin-top: 48px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+.mini__img {
+  border-radius: 6%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.mini__number {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #202027;
+  margin-top: 24px;
+}
+.mini__name {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #202027;
+}
+.mini__btn {
+  width: 247px;
+  height: 66px;
+  margin-top: 36px;
+  margin-bottom: 30px;
+  border-radius: 60px;
+  background: #202027;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.right {
+  flex-direction: row-reverse;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+@media (max-width: 376px) {
+  .header {
+    height: 700px;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding-top: 147px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .top__title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .top__text {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .top__btn {
+    margin-bottom: 131px;
+    width: 285px;
+    height: 55px;
+    padding-top: 10px;
+  }
+  .about {
+    display: none;
+  }
+  .mini__content {
+    width: 343px;
+    height: 49px;
+    padding-left: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 48px;
+    padding-top: 48px;
+  }
+  .mini__games {
+    flex-direction: column;
+  }
+  .mini__art {
+    width: 343px;
+    flex-direction: column-reverse;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 24px;
+  }
+  .mini__item {
+    width: 285px;
+    margin-top: 29px;
+    margin-bottom: 32px;
+    margin-left: 29px;
+    margin-right: 29px;
+  }
+  .mini__title {
+    font-size: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .mini__name {
+    font-size: 32px;
+  }
+  .mini__number {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .mini__btn {
+    width: 285px;
+    height: 55px;
+  }
+}/*# sourceMappingURL=style.css.map */
